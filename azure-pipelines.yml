@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 trigger:
 - '*'
 
@@ -57,3 +58,8 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
+=======
+pool: MyAgentPool
+steps:
+- bash: echo hello world
+>>>>>>> ee7a2fab9821ccbb90f10d05895301b70f839813
